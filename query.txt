@@ -1,0 +1,24 @@
+1.watching now 	containing both “watching” and “now”. This is the default operator.
+2.“happy hour” 	containing the exact phrase “happy hour”.
+3.love OR hate 	containing either “love” or “hate” (or both).
+4.beer -root 	containing “beer” but not “root”.
+5.#haiku 	containing the hashtag “haiku”.
+6.from:interior 	sent from Twitter account “interior”.
+7.list:NASA/astronauts-in-space-now 	sent from a Twitter account in the NASA list astronauts-in-space-now
+8.to:NASA 	a Tweet authored in reply to Twitter account “NASA”.
+9.@NASA 	mentioning Twitter account “NASA”.
+10.politics filter:safe 	containing “politics” with Tweets marked as potentially sensitive removed.
+11.puppy filter:media 	containing “puppy” and an image or video.
+12.puppy -filter:retweets 	containing “puppy”, filtering out retweets
+13.puppy filter:native_video 	containing “puppy” and an uploaded video, Amplify video, Periscope, or Vine.
+14.puppy filter:periscope 	containing “puppy” and a Periscope video URL.
+15.puppy filter:vine 	containing “puppy” and a Vine.
+16.puppy filter:images 	containing “puppy” and links identified as photos, including third parties such as Instagram.
+17.puppy filter:twimg 	containing “puppy” and a pic.twitter.com link representing one or more photos.
+18.hilarious filter:links 	containing “hilarious” and linking to URL.
+19.puppy url:amazon 	containing “puppy” and a URL with the word “amazon” anywhere within it.
+20.superhero since:2015-12-21 	containing “superhero” and sent since date “2015-12-21” (year-month-day).
+21.puppy until:2015-12-21 	containing “puppy” and sent before the date “2015-12-21”.
+22.movie -scary :) 	containing “movie”, but not “scary”, and with a positive attitude.
+23.flight :( 	containing “flight” and with a negative attitude.
+24.traffic ? 	containing “traffic” and asking a question.
